@@ -15,6 +15,29 @@ body {
     line-height: 1.5;
     letter-spacing: 2%;
 }
+h1{
+    color: var(--color-white);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+h2{
+    color: var(--color-blue);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+h3{
+    color: var(--color-blue);
+    /* Header 3 */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
 /*header*/
 .header a{
     text-decoration: none;
@@ -27,9 +50,8 @@ body {
     text-decoration: none;
     list-style: none;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.17;
     letter-spacing: 0.54px;
 }
 .logo__studio {
@@ -50,7 +72,6 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
 /*address*/
@@ -59,7 +80,6 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     list-style: none;
 }
@@ -72,9 +92,8 @@ body {
     color: var(--color-white);
     text-align: center;
     /* Header 1 */
-    font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 107.143% */
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 /*sections buttons*/
@@ -82,32 +101,8 @@ body {
     background: var(--color-iris);
     cursor: pointer;
     color: var(--color-white);
-    /* Button Text */
-    font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.64px;
-}
-h2{
-    color: var(--color-blue);
-    text-align: center;
-    /* Header 2 */
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px; /* 111.111% */
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-}
-h3{
-    color: var(--color-blue);
-    /* Header 3 */
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 4%;
 }
 /*gallery list*/
 .s-list__li, a{
@@ -116,20 +111,9 @@ h3{
 }
 .s-list__li p{
     color: var(--color-slate);
-    /* Body */
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1,5; /* 150% */
-    letter-spacing: 0.32px;
 }
 .filters__btn {
-    /* Button Text */
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 1,5; /* 150% */
     letter-spacing: 0.64px;
     color: var(--color-iris);
     cursor: pointer;
@@ -142,15 +126,11 @@ h3{
 .filters__btn:hover {
     background-color: var(--color-ocean);
     color: var(--color-white);
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
 }
 /*footer*/
 .footer{
     background: var(--color-blue);
     color: var(--color-cloud);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
 }
