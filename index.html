@@ -4,37 +4,37 @@
     <meta charset="UTF-8">
     <meta name="description" content="Effective Solutions
     for Your Business">
-    <title>Studio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" />
 </head>
 <body>
-    <header class="header">
-        <nav class="nav-header">
-            <a class="logo" href="./index.html"><span class="logo-blue">Web</span>Studio</a>
-            <ul>
-                <li><a href="./index.html">Studio</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+    <header>
+        <nav class="header_nav h-nav">
+            <a class="h-nav__logo logo" href="./index.html">Web<span class="logo__studio">Studio</span></a>
+            <ul class="h-nav__link-list">
+                <li class="h-nav__link"><a href="index.html">Studio</a></li>
+                <li class="h-nav__link"><a href="portfolio.html">Portfolio</a></li>
+                <li class="h-nav__link"><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
-        <address>
-            <ul>
+        <address class="header__address h-address">
+            <ul class="h-address__list">
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111">+11(000)111-11-11</a></li>
             </ul>
         </address>
     </header>
     <main>
-        <section>
+        <section class="banner">
             <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+            <button class="banner__btn" type="button">Order Service</button>
         </section>
-        <section>
+        <section class="section__list s-list">
             <h2>List of features</h2>
-            <ul>
+            <ul class="s-list__li p">
                 <li>
                     <h3>Strategy</h3>
                     <p>
@@ -67,7 +67,7 @@
         </section>
         <section>
             <h2>What are we doing</h2>
-            <ul>
+            <ul class="s-list__li">
                 <li>
                     <img src="./images/Rectangle71-2.jpg" alt="a computer screen with a colorful design on it" width = "360" height = "300">
                 </li>
@@ -81,7 +81,7 @@
         </section>
         <section>
             <h2>Our Team</h2>
-            <ul>
+            <ul class="s-list__li p">
                 <li>
                     <img src="./images/img-3.jpg" alt="Mark Guerrero" width = "264" height = "260">
                     <h3>Mark Guerrero</h3>
@@ -106,8 +106,13 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <a class="logo" href="./index.html"><span class="logo-blue">Web</span>Studio</a>
+    <footer class="footer">
+        <a class="footer__logo logo" href="./index.html">
+            Web
+            <span class="logo__studio--footer">
+            Studio
+            </span>
+        </a>
         <p>
             Increase the flow of customers and 
             sales for your business with digital 

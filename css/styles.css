@@ -1,25 +1,153 @@
 :root {
-    --color-irish: #4d5ae5;
-    --color-logo: #2E2F42;
+    --color-iris: #4d5ae5;
+    --color-cloud: #F4F4FD;
+    --color-slate: #434455;
     --color-ocean: #404BBF;
-    --color-navy-blue: #2E2F42;
+    --color-blue: #2E2F42;
     --color-green: #31D0AA;
-    --color-header-team-bg-white: #FFFFFF;
+    --color-white: #FFFFFF;
     --color-modal: #FCFCFC;
-
-
 }
+/*body*/
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
 }
+/*header*/
+.header a{
+    text-decoration: none;
+}
 .logo {
-    color: var(--color-logo);
+    color: var(--color-iris);
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.logo-blue {
-    color: var(--color-irish);
+.logo__studio {
+    color: var(--color-blue);
+}
+.logo__studio--footer {
+    color: var(--color-cloud);
+}
+.footer-nav__logo span{
+    color: var(--color-cloud);
+}
+.h-nav__link {
+    list-style: none;
+}
+.h-nav__link a{
+    text-decoration: none;
+    color: var(--color-logo);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+/*address*/
+.h-address__list, a{
+    color: var(--color-slate);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    list-style: none;
+}
+.banner{
+    background: var(--color-blue);
+    color: var(--color-white);
+    text-align: center;
+    /* Header 1 */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+}
+/*sections buttons*/
+.banner__btn{
+    background: var(--color-iris);
+    cursor: pointer;
+    color: var(--color-white);
+    /* Button Text */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+}
+h2{
+    color: var(--color-blue);
+    text-align: center;
+    /* Header 2 */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+h3{
+    color: var(--color-blue);
+    /* Header 3 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+}
+/*gallery list*/
+.s-list__li, a{
+    list-style: none;
+    text-decoration: none;
+}
+.s-list__li p{
+    color: var(--color-slate);
+    /* Body */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1,5; /* 150% */
+    letter-spacing: 0.32px;
+}
+.filters__btn {
+    /* Button Text */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,5; /* 150% */
+    letter-spacing: 0.64px;
+    color: var(--color-iris);
+    cursor: pointer;
+}
+.f-btn__list {
+    list-style: none;
+}
+.filters__btn--active, 
+.filters__btn:active,
+.filters__btn:hover {
+    background-color: var(--color-ocean);
+    color: var(--color-white);
+    text-decoration: none;
+    cursor: pointer;
+}
+/*sections apps*/
+
+/*footer*/
+.footer{
+    background: var(--color-blue);
+    color: var(--color-cloud);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
 }
