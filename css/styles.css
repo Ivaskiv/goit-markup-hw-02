@@ -63,6 +63,10 @@ body {
     letter-spacing: 0.32px;
     list-style: none;
 }
+.h-address__list .contact-links:hover,
+.h-address__list .contact-links:focus{
+    color: var(--color-ocean);
+}
 .banner{
     background: var(--color-blue);
     color: var(--color-white);
