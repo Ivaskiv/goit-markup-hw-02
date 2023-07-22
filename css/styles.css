@@ -1,0 +1,25 @@
+:root {
+    --color-irish: #4d5ae5;
+    --color-logo: #2E2F42;
+    --color-ocean: #404BBF;
+    --color-navy-blue: #2E2F42;
+    --color-green: #31D0AA;
+    --color-header-team-bg-white: #FFFFFF;
+    --color-modal: #FCFCFC;
+
+
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+.logo {
+    color: var(--color-logo);
+    text-transform: uppercase;
+}
+.logo-blue {
+    color: var(--color-irish);
+}
