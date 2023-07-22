@@ -22,6 +22,7 @@ body {
 /*logo*/
 .logo {
     color: var(--color-iris);
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     list-style: none;
@@ -30,7 +31,6 @@ body {
     font-weight: 800;
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 .logo__studio {
     color: var(--color-blue);
