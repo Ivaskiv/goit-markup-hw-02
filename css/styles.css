@@ -19,6 +19,7 @@ body {
 .header a{
     text-decoration: none;
 }
+/*logo*/
 .logo {
     color: var(--color-iris);
     text-transform: uppercase;
@@ -140,8 +141,6 @@ h3{
     text-decoration: none;
     cursor: pointer;
 }
-/*sections apps*/
-
 /*footer*/
 .footer{
     background: var(--color-blue);
