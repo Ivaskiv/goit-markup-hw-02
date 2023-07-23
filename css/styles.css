@@ -13,6 +13,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    color: var(--color-slate);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -52,7 +53,7 @@ body {
 address {
     font-style: normal;
 }
-.h-address_list {
+.h-address_list a{
     color: var(--color-slate);
     font-size: 16px;
     font-weight: 400;
@@ -61,8 +62,10 @@ address {
     text-decoration: none;
 }
 /*banner*/
-.banner {
+.hero {
     background-color: var(--color-blue);
+}
+.banner {
     color: var(--color-white);
     text-align: center;
     font-size: 56px;
@@ -79,8 +82,8 @@ address {
     letter-spacing: 0.04em;
     font-size: 16px;
     line-height: 1.5;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    /*border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);*/
 }
 .banner_btn:active,
 .banner_btn:hover,
@@ -106,10 +109,8 @@ address {
     letter-spacing: 0.4px;
     text-align: center;
 }
-.s-our-team {
-    border-radius: 0px 0px 4px 4px;
-    background: var(--color-white);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+.section-our-time{
+    background: var(--color-cloud);
 }
 .section-team {
     background-color: var(--color-cloud);
@@ -118,6 +119,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    color: var(--color-slate);
 }
 .s-our-team {
     background: var(--color-white);
@@ -137,7 +139,7 @@ color: var(--color-ocean);
 }
 /*gallery list*/
 .gallery-card {
-    border: 1px solid var(--color-cornflower);
+    /* border: 1px solid var(--color-cornflower); */
     background: var(--color-white);
 }
 /*footer*/
@@ -159,7 +161,7 @@ color: var(--color-ocean);
     text-decoration: none;
     background-color: var(--color-cloud);
     border-radius: 4px;
-    border: 1px solid var(--color-cornflower);
+    /* border: 1px solid var(--color-cornflower); */
     background: var(--color-cloud);
 }
 .filters_btn--active, 
