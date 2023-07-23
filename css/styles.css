@@ -9,7 +9,7 @@
     --color-modal: #FCFCFC;
 }
 /*body*/
-body {
+body, .list_li-p{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -17,14 +17,14 @@ body {
     color: var(--color-slate);
     background-color: var(--color-white);
 }
-.banner{
-    background: var(--color-blue);
+.banner_h1{
+    background-color: var(--color-blue);
     color: var(--color-white);
     text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
 }
 h2{
     color: var(--color-blue);
@@ -59,74 +59,102 @@ h3{
     line-height: 1.17;
     letter-spacing: 0.54px;
 }
-.logo__studio {
+.logo_studio {
     color: var(--color-blue);
 }
-.logo__studio--footer {
+.logo_studio--footer {
     color: var(--color-cloud);
 }
-.footer-nav__logo span{
+.footer-nav_logo span {
     color: var(--color-cloud);
 }
-.h-nav__link {
+.list, p{
     list-style: none;
+    letter-spacing: 0.02em;
 }
-.h-nav__link a{
+.link {
+    text-decoration: none; 
+}
+.head-nav_list a{
     text-decoration: none;
-    color: var(--color-logo);
+    color: var(--color-blue);
     font-size: 16px;
-    font-style: normal;
+    list-style: 1.5;
     font-weight: 500;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+}
+.contact-links:active,
+.h-nav_link:active,
+.h-address_list .contact-links:hover,
+.h-address_list .contact-links:focus,
+.head-nav_list .h-nav_link:hover,
+.head-nav_list .h-nav_link:focus {
+    color: var(--color-ocean);
 }
 /*address*/
-.h-address__list, a{
+address {
+    font-style: normal;
+}
+.h-address_list a{
     color: var(--color-slate);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     letter-spacing: 0.32px;
     list-style: none;
-}
-.h-address__list .contact-links:hover,
-.h-address__list .contact-links:focus{
-    color: var(--color-ocean);
+    text-decoration: none;
 }
 /*sections buttons*/
-.banner__btn{
-    background: var(--color-iris);
+.banner_btn{
+    font-family: "Roboto", sans-serif;
+    background-color: var(--color-iris);
     cursor: pointer;
     color: var(--color-white);
     font-weight: 500;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.banner_btn--active,
+.banner_btn:hover,
+.banner_btn:focus{
+    background-color: var(--color-ocean);
+    color: var(--color-white);
 }
 /*gallery list*/
-.s-list__li, a{
-    list-style: none;
-    text-decoration: none;
+.list_li-h3 {
+    color: var(--color-blue);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
-.s-list__li p{
+.list_li a{
     color: var(--color-slate);
+    text-decoration: none;
+    letter-spacing: 0.02em
 }
-.filters__btn {
+.filters_btn {
     font-weight: 500;
     letter-spacing: 0.64px;
     color: var(--color-iris);
     cursor: pointer;
+    text-decoration: none;
 }
-.f-btn__list {
-    list-style: none;
-}
-.filters__btn--active, 
-.filters__btn:active,
-.filters__btn:hover {
+.filters_btn--active, 
+.filters_btn:active,
+.filters_btn:hover {
     background-color: var(--color-ocean);
     color: var(--color-white);
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
 }
 /*footer*/
 .footer{
-    background: var(--color-blue);
+    background-color: var(--color-blue);
     color: var(--color-cloud);
+}
+.footer_p{
+    letter-spacing: 0.02em;
 }
