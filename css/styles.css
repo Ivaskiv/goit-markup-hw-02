@@ -13,7 +13,7 @@ body, .list_li-p{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--color-slate);
     background-color: var(--color-white);
 }
@@ -41,7 +41,7 @@ body, .list_li-p{
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-h3{
+.list_li-h3 {
     color: var(--color-blue);
     font-size: 20px;
     font-weight: 500;
@@ -76,6 +76,7 @@ h3{
 .list, p{
     list-style: none;
     letter-spacing: 0.02em;
+    font-size: 16px;
 }
 .link {
     text-decoration: none; 
