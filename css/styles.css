@@ -15,7 +15,8 @@ body {
     line-height: 1.5;
     letter-spacing: 2%;
 }
-h1{
+.banner{
+    background: var(--color-blue);
     color: var(--color-white);
     text-align: center;
     font-size: 56px;
@@ -28,7 +29,8 @@ h2{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 h3{
@@ -37,6 +39,7 @@ h3{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.4px;
 }
 /*header*/
 .header a{
@@ -86,15 +89,6 @@ h3{
 .h-address__list .contact-links:hover,
 .h-address__list .contact-links:focus{
     color: var(--color-ocean);
-}
-.banner{
-    background: var(--color-blue);
-    color: var(--color-white);
-    text-align: center;
-    /* Header 1 */
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 1.12px;
 }
 /*sections buttons*/
 .banner__btn{
