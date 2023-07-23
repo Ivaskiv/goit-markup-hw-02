@@ -17,7 +17,13 @@ body, .list_li-p{
     color: var(--color-slate);
     background-color: var(--color-white);
 }
-.banner_h1{
+.list_li-team {
+    background-color: var(--color-cloud);
+}
+.list_li-team_li {
+    background-color: var(--color-white);
+}
+.banner-h1{
     background-color: var(--color-blue);
     color: var(--color-white);
     text-align: center;
@@ -26,7 +32,7 @@ body, .list_li-p{
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
-h2{
+.main-h2 {
     color: var(--color-blue);
     text-align: center;
     font-size: 36px;
@@ -37,7 +43,6 @@ h2{
 }
 h3{
     color: var(--color-blue);
-    /* Header 3 */
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -83,8 +88,8 @@ h3{
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-.contact-links:active,
-.h-nav_link:active,
+.h-address_list .contact-links:active,
+.head-nav_list .h-nav_link:active,
 .h-address_list .contact-links:hover,
 .h-address_list .contact-links:focus,
 .head-nav_list .h-nav_link:hover,
@@ -130,21 +135,27 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.list_li a{
+.list_li a, 
+.f-btn_list-li{
     color: var(--color-slate);
     text-decoration: none;
     letter-spacing: 0.02em
 }
 .filters_btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    letter-spacing: 0.64px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--color-iris);
     cursor: pointer;
     text-decoration: none;
+    background-color: var(--color-cloud);
 }
 .filters_btn--active, 
 .filters_btn:active,
-.filters_btn:hover {
+.filters_btn:hover,
+.filters_btn:focus {
     background-color: var(--color-ocean);
     color: var(--color-white);
     text-decoration: none;
