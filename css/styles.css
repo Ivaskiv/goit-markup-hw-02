@@ -120,6 +120,9 @@ address {
 .s-our-team {
     background: var(--color-white);
 }
+.section-our-team {
+    background-color: var(--color-cloud);
+}
 .list {
     list-style: none;
     letter-spacing: 0.02em;
@@ -148,7 +151,10 @@ color: var(--color-ocean);
 .footer_p{
     letter-spacing: 0.02em;
 }
-.f-btn_list .filters_btn{
+.filters {
+    list-style: none;
+}
+.f_btn{
     list-style: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -160,10 +166,9 @@ color: var(--color-ocean);
     text-decoration: none;
     background-color: var(--color-cloud);
 }
-.filters_btn--active, 
-.filters_btn:active,
-.filters_btn:hover,
-.filters_btn:focus {
+.f_btn:active,
+.f_btn:hover,
+.f_btn:focus {
     background-color: var(--color-ocean);
     color: var(--color-white);
     text-decoration: none;
