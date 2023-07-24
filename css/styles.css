@@ -97,6 +97,16 @@ address {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
+}
+.section-title-gallery {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
 }
 .card-title {
     color: var(--color-blue);
@@ -104,6 +114,15 @@ address {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+}
+.card-title-gallery {
+    color: var(--color-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .section-team {
     background-color: var(--color-cloud);
@@ -111,6 +130,7 @@ address {
 .section-team-text {
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 400;
     color: var(--color-slate);
     letter-spacing: 0.02em;
     text-decoration: none;
