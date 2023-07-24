@@ -127,7 +127,7 @@ address {
     background-color: var(--color-cloud);
 }
 /*gallery*/
-.section-title-gallery {
+.section-gallery {
     font-family: "Roboto", sans-serif;
     color: var(--color-blue);
     font-size: 20px;
@@ -135,16 +135,14 @@ address {
     line-height: 1.12;
     letter-spacing: 0.4px;
     text-transform: capitalize;
+    background: var(--color-white);
 }
-.card-title-gallery {
+.gallery-card-title {
     color: var(--color-blue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;    
-}
-.gallery-card {
-    background: var(--color-white);
 }
 .h-address_list .contact-links:active,
 .h-address_list .contact-links:hover,
