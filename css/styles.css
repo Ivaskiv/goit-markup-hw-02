@@ -26,7 +26,7 @@ body {
     list-style: none;
 }
 .contact-links, 
-.head-nav_list a{
+.head-nav__list a{
     color: var(--color-blue);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -56,7 +56,7 @@ body {
 address {
     font-style: normal;
 }
-.h-address_list a{
+.h-address__list a{
     color: var(--color-slate);
     font-size: 16px;
     font-weight: 400;
@@ -76,7 +76,7 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
-.banner_btn{
+.banner__btn{
     font-family: "Roboto", sans-serif;
     background-color: var(--color-iris);
     cursor: pointer;
@@ -86,14 +86,14 @@ address {
     font-size: 16px;
     line-height: 1.5;
 }
-.banner_btn:active,
-.banner_btn:hover,
-.banner_btn:focus{
+.banner__btn:active,
+.banner__btn:hover,
+.banner__btn:focus{
     background-color: var(--color-ocean);
     color: var(--color-white);
 }
 /*section*/
-.section-title {
+.section__title {
     color: var(--color-blue);
     font-size: 36px;
     font-weight: 700;
@@ -102,17 +102,17 @@ address {
     text-transform: capitalize;
     text-align: center;
 }
-.card-title {
+.section__card-title,
+.gallery__card-title {
+    font-family: "Roboto", sans-serif;
     color: var(--color-blue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.section-team {
-    background-color: var(--color-cloud);
-}
-.section-team-text {
+.section__team-text,
+.gallery__team-text {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
@@ -120,36 +120,31 @@ address {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.s-our-team {
+.s-our-team, .section-gallery {
     background: var(--color-white);
 }
-.section-our-time {
+.section-our-time, .section-team {
     background-color: var(--color-cloud);
 }
 /*gallery*/
-.section-gallery {
+.gallery {
     font-family: "Roboto", sans-serif;
-    color: var(--color-blue);
+    color: var(--color-blue);  
+}
+.gallery__card-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.12;
     letter-spacing: 0.4px;
     text-transform: capitalize;
-    background: var(--color-white);
+    letter-spacing: 0.02em; 
 }
-.gallery-card-title {
-    color: var(--color-blue);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;    
-}
-.h-address_list .contact-links:active,
-.h-address_list .contact-links:hover,
+.h-address__list .contact-links:active,
+.h-address__list .contact-links:hover,
 .h-address_list .contact-links:focus,
-.head-nav_list .link:active,
-.head-nav_list .link:hover,
-.head-nav_list .link:focus {
+.head-nav__list .link:active,
+.head-nav__list .link:hover,
+.head-nav__list .link:focus {
 color: var(--color-ocean);
 }
 /*footer*/
@@ -157,13 +152,13 @@ color: var(--color-ocean);
     background-color: var(--color-blue);
     color: var(--color-cloud);
 }
-.footer_p{
+.footer-p{
     letter-spacing: 0.02em;
 }
 .filters {
     list-style: none;
 }
-.f_btn{
+.f-btn-list__li {
     list-style: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -175,9 +170,9 @@ color: var(--color-ocean);
     text-decoration: none;
     background-color: var(--color-cloud);
 }
-.f_btn:active,
-.f_btn:hover,
-.f_btn:focus {
+.f-btn-list__li:active,
+.f-btn-list__li:hover,
+.f-btn-list__li:focus {
     background-color: var(--color-ocean);
     color: var(--color-white);
     text-decoration: none;
