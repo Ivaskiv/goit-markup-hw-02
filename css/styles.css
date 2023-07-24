@@ -141,11 +141,11 @@ address {
 }
 .h-address__list .contact-links:active,
 .h-address__list .contact-links:hover,
-.h-address_list .contact-links:focus,
+.h-address__list .contact-links:focus,
 .head-nav__list .link:active,
 .head-nav__list .link:hover,
 .head-nav__list .link:focus {
-color: var(--color-ocean);
+    color: var(--color-ocean);
 }
 /*footer*/
 .footer{
